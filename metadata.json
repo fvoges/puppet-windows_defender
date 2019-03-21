@@ -2,9 +2,11 @@
   "name": "fvoges-windows_defender",
   "version": "0.1.0",
   "author": "Federico Voges",
-  "summary": "",
+  "summary": "Manage Windows Defender antivirus",
   "license": "Apache-2.0",
-  "source": "",
+  "source": "https://github.com/fvoges/puppet-windows_defender.git",
+  "project_page": "https://github.com/fvoges/puppet-windows_defender",
+  "issues_url": "https://github.com/fvoges/puppet-windows_defender/issues",
   "dependencies": [
     {
       "name": "puppetlabs/registry",
