@@ -1,9 +1,17 @@
-# A description of what this class does
+# Simple module to manage Widows Defender
 #
-# @summary A short summary of the purpose of this class
+# @summary Manage Windows Defender antivirus
 #
-# @example
+# @example Basic example
 #   include windows_defender
+# @param allow_disabling
+#   Allow disabling Windows Defender
+# @param update_before_scan
+#   Update virus definitions before a scan
+# @param ui_lockdown
+#   Headless UI mode.  Makes it impossible for users to interact with the interface
+# @param purge_exclusions
+#   Remove all exclusions form Windows Defender
 class windows_defender (
   Boolean $allow_disabling    = true,
   Boolean $update_before_scan = true,
