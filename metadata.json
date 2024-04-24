@@ -1,6 +1,6 @@
 {
   "name": "fvoges-windows_defender",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "author": "Federico Voges",
   "summary": "Manage Windows Defender antivirus",
   "license": "Apache-2.0",
