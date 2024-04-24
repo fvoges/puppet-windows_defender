@@ -63,7 +63,6 @@ class windows_defender (
     ensure => present,
   }
 
-
   $_ui_lockdown = $ui_lockdown ? {
     true    => '1',
     default => '0',
