@@ -2,8 +2,8 @@
 name: "Release Prep"
 
 on:
-  schedule:
-    - cron: '0 3 * * 6'
+  # schedule:
+  #   - cron: '0 3 * * 6'
   workflow_dispatch:
     inputs:
       version:
