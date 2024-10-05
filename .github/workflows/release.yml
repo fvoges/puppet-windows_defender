@@ -6,6 +6,6 @@ on:
  
 jobs:
   release: 
-    uses: "puppetlabs/cat-github-actions/.github/workflows/module_release.yml@main"
+    uses: "fvoges/cat-github-actions/.github/workflows/module_release.yml@main"
     secrets: "inherit"
     
